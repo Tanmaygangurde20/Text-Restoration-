@@ -5,7 +5,7 @@ import '../styles/UploadSection.css';
 
 // Define API base URL based on environment
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-render-backend-url.onrender.com' 
+  ? 'https://backend-29gk.onrender.com' 
   : 'http://localhost:5000';
 
 const UploadSection = () => {
